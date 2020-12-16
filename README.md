@@ -1,5 +1,6 @@
-# pretrained_models_prerelease
+# pretrained_models
 The current repository contains all the pretrained models for each scenario and each Deep Learning (DL) and Machine Learning (ML) algorithms.
+Cloning requires 3.8GB of available disk space.
 
 ## Scenarios
  - Binary Classification
@@ -17,7 +18,7 @@ The current repository contains all the pretrained models for each scenario and 
  	- 7 models
  - Linear Discriminant Analysis (LDA): 
 	- 7 models 
-	- 7 sets of traces that contains the transformed trained traces
+	- 7 sets of traces that contain the transformed training traces
 
 ## Deep Learning Algorithms
  - Convolutional Neural Nectwork (CNN):
