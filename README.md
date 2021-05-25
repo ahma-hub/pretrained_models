@@ -1,15 +1,23 @@
-# pretrained_models
-The current repository contains all the pretrained models for each scenario and each Deep Learning (DL) and Machine Learning (ML) algorithms.
-Cloning requires 3.8GB of available disk space.
+# pretrained_models_prerelease
+The current repository contains all the pretrained models for each scenario
+and each Deep Learning (DL) and Machine Learning (ML) algorithms.
 
 ## Scenarios
- - Binary Classification
- - Novelty Classification
- - Packer Detection
- - Virtualization Detection
- - Family Classification
- - Obfuscation Classification
- - Type Classification
+The current repository contains all the pretrained models for each scenario and each Deep Learning (DL) and Machine Learning (ML) algorithms.
+
+ - type classification
+ - Family classification
+ - Novelty classification
+ - Virtualization identification
+ - Packer identification
+ - Obfuscation classification
+ - Executable classification
+ 
+## Accumulators
+ - Contained accumulated data (ACC) needed for the NICV computation. There
+   is two files per executable:
+   - the sum,
+   - the sum of the square.
 
 ## Machine Learning Algorithms
  - Naïve Bayesian (NB): 
@@ -17,9 +25,8 @@ Cloning requires 3.8GB of available disk space.
  - Support Vector Machines (SVM): 
  	- 7 models
  - Linear Discriminant Analysis (LDA): 
-	- 7 models 
-	- 7 sets of traces that contain the transformed training traces
-
+	- 9 models 
+   
 ## Deep Learning Algorithms
  - Convolutional Neural Nectwork (CNN):
 	- 7 models (compressed with 7z)
