@@ -28,7 +28,7 @@ The current repository contains all the pretrained models for each scenario and 
 	- 9 models 
    
 ## Deep Learning Algorithms
- - Convolutional Neural Nectwork (CNN):
+ - Convolutional Neural Network (CNN):
 	- 7 models (compressed with 7z)
 	- need to be uncompressed before usable with other moduls, run_decompression.sh decompresses files using 7z
  - Multilayer Perceptron (MLP):
