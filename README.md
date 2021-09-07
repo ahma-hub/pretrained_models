@@ -27,4 +27,10 @@ The current repository contains all the pretrained models for each scenario and 
  - Linear Discriminant Analysis (LDA): 
 	- 9 models 
    
-## Deep Learning Algorithms [coming soon]
+## Deep Learning Algorithms
+ - Convolutional Neural Network (CNN):
+	- 7 models (compressed with 7z)
+	- need to be uncompressed before usable with other moduls, run_decompression.sh decompresses files using 7z
+ - Multilayer Perceptron (MLP):
+	- 7 models (compressed with 7z)
+	- need to be uncompressed before usable with other moduls, run_decompression.sh decompresses files using 7z
